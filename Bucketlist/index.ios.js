@@ -10,5 +10,6 @@ import { AppRegistry } from 'react-native';
 import MainApp from './src/MainApp';
 import ButtonEvent from './src/ButtonEvent';
 import ListComponent from './src/ListComponent';
+import TabsComponent from './src/TabsComponent';
 
-AppRegistry.registerComponent('Bucketlist', () => ListComponent);
+AppRegistry.registerComponent('Bucketlist', () => TabsComponent);
