@@ -9,5 +9,6 @@ import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
 import MainApp from './src/MainApp';
 import ButtonEvent from './src/ButtonEvent';
+import ListComponent from './src/ListComponent';
 
-AppRegistry.registerComponent('Bucketlist', () => ButtonEvent);
+AppRegistry.registerComponent('Bucketlist', () => ListComponent);
